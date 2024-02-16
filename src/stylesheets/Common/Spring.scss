@@ -1,0 +1,81 @@
+@import "../main.scss";
+
+.spring {
+  padding: 70px 55px;
+
+  @include lg{
+    padding:20px 28px;
+  }
+
+  @include sm{
+    padding: 0px 20px;
+  }
+  &__section1 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 100%;
+    background-color: $color-primary;
+
+    @include sm {
+      flex: 0 0 100%;
+      max-width: 100%;
+      width: 100%;
+      background-color: $color-white;
+    }
+  }
+  img {
+    width: 421;
+    height:593;
+    @include sm {
+      width: 490;
+      height: 690;
+    }
+  }
+  &__section2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+
+    @include sm {
+      flex: 0 0 100%;
+      max-width: 100%;
+      width: 100%;
+      padding: 20px 20px;
+    }
+
+    &__text{
+
+      @include sm{
+        padding:50px 30px 75px;
+      }
+    }
+  }
+  h2 {
+    color: $color-black;
+    font-size: 36px;
+    margin: 0;
+
+    @include sm{
+      font-size: 25px;
+      line-height: 28px;
+      margin: 5px 0px;
+    }
+  }
+  h6 {
+    font-size: 13px;
+    margin: 0;
+    color:$color-grey;
+
+    @include sm{
+      font-size: 15px;
+      font-weight: light;
+    }
+  }
+  p {
+    margin: 0 0 28px;
+    font-size: 13px;
+    color: $color-grey;
+  }
+}

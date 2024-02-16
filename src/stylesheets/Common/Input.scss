@@ -1,0 +1,44 @@
+@import "../main.scss";
+
+  input {
+    padding: 12px;
+    width:100%;
+    margin-bottom: 20px;
+    max-width: 60%;
+    margin-bottom: 0px;
+
+    @include sm{
+      width: 100%;
+      max-width: 84%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      border:1px solid $color-black;
+    }
+  }
+  .error-message{
+    color:red;
+    font-size: 14px;
+  }
+
+  .input__form{
+    padding: 15px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #F8F8F8;
+    color:$color-grey;
+    border:1px solid dark$color-grey;
+  }
+
+  .input__name{
+    padding: 12px;
+    width:100%;
+    margin-bottom: 20px;
+    max-width: 100%;
+    margin-bottom: 0px;
+    background-color: #F8F8F8;
+    color:$color-grey;
+    border:1px solid dark$color-grey;
+
+  }
+
+

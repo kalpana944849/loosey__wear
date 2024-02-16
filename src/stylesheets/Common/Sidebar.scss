@@ -1,0 +1,10 @@
+@import "../main.scss";
+
+.sidebar{
+    &__main{
+        width: 100%;
+        height: 100vh;
+        max-width: 30%;
+        border: 1px solid $color-black;
+    }
+}

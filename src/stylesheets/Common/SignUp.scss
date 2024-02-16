@@ -1,0 +1,35 @@
+@import '../main.scss';
+
+.signup{
+    background-color:$color-primary;
+    width: 38%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 30px;
+
+    @include sm{
+        width:90%;
+        border-radius: 0;
+        // margin: 0 auto;
+        margin-top: 10px;
+    }
+
+
+    .input__field{
+        margin-bottom: 30px;
+    }
+    p{
+        cursor: pointer;
+    }
+    .button__loader{
+        background-color: $color-black;
+        color: $color-white;
+        font-size: 14px;
+        border: none;
+        height: 45px;
+        max-width: 42%;
+        width: 100%;
+        cursor: pointer;
+    }
+}

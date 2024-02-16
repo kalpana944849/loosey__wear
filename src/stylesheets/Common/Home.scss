@@ -1,0 +1,97 @@
+@import "../main.scss";
+
+.home {
+  &__screen {
+    padding: 0px 55px;
+    @include sm {
+      padding: 0px 30px;
+    }
+    @include lg{
+      padding:0px 30px;
+    }
+    &__bg {
+      background-color: $color-primary;
+    }
+    &__section1 {
+      flex: 0 0 50%;
+      max-width: 50%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding-left: 20px !important;
+
+      @include sm {
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+        padding: 72px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+
+      p {
+        font-size: 13px;
+        margin: 0px;
+        color: $color-grey;
+
+        @include sm{
+          font-size: 12px;
+          margin: 0;
+        }
+        @include lg{
+          font-size: 11.856px;
+        }
+      }
+
+      h1 {
+        font-size: 55px;
+        margin: 0px;
+        color:$color-black;
+        line-height: 1em;
+
+        @include sm {
+          font-size: 30px !important;
+          margin: 0px;
+
+        }
+        @include lg{
+          font-size: 42px;
+        }
+      }
+      .section__height{
+        line-height: 59px;
+      }
+    }
+    &__section2 {
+      flex: 0 0 50%;
+      max-width: 50%;
+      width: 100%;
+      padding-right: 0px !important;
+      cursor: pointer;
+
+      @include sm {
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+      }
+    }
+    img{
+      @include sm{
+        width:217px;
+        height:258px;
+        padding: 0;
+        margin: 0 auto;
+      }
+    }
+    Button {
+      margin-top: 18px;
+    }
+  }
+}
+
+h4{
+  text-align: center;
+}

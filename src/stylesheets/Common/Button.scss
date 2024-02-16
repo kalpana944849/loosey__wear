@@ -1,0 +1,180 @@
+@import "../main.scss";
+
+button {
+  padding: 6px 16px;
+}
+.button__sectionF {
+  background-color: $color-black;
+  color: $color-white;
+  font-size: 14px;
+  border: none;
+  height: 45px;
+  max-width: 42%;
+  width: 100%;
+  cursor: pointer;
+
+  @include lg{
+    max-width: 53%;
+  }
+
+  @include sm{
+    max-width: 65% !important;
+    width:100%;
+
+  }
+}
+.button__sectionF:hover {
+  color: rgb(179, 177, 175);
+  transition: 0.3s;
+}
+.button__section {
+  background-color: $color-black;
+  color: $color-white;
+  font-size: 14px;
+  border: none;
+  height: 45px;
+  max-width: 38%;
+  width: 100%;
+  cursor: pointer;
+
+  @include sm{
+    width:100%;
+    max-width: 64%;
+    margin: 0 auto;
+  }
+}
+
+.button__section:hover {
+  color: rgb(179, 177, 175);
+  transition: 0.3s;
+}
+
+.button__sectionFooter {
+  background-color: $color-black;
+  color: $color-white;
+  font-size: 14px;
+  border: none;
+  height: 45px;
+  max-width: 38%;
+  width: 100%;
+  cursor: pointer;
+
+  @include sm{
+    width:100%;
+    max-width: 84%;
+    margin: 0 auto;
+  }
+}
+
+.button__sectionFooter:hover {
+  color: rgb(179, 177, 175);
+  transition: 0.3s;
+}
+.button__sectionform {
+  background-color: $color-black;
+  color: $color-white;
+  font-size: 15px;
+  border: none;
+  height: 45px;
+  max-width: 17%;
+  width: 100%;
+  cursor: pointer;
+
+  @include lg{
+    max-width: 30%;
+  }
+
+  @include sm{
+    height: 48px;
+    max-width: 34%;
+  }
+}
+
+.button__sectionForm:hover {
+  color: rgb(179, 177, 175);
+  transition: 0.3s;
+}
+.button__sectioncart {
+  background-color: $color-black;
+  color: $color-white;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  height: 60px;
+  width: 100%;
+  cursor: pointer;
+  max-width: 80%;
+}
+
+.button__sectioncart:hover {
+  color: rgb(179, 177, 175);
+  transition: 0.3s;
+}
+
+
+.button__sectionBase {
+  background-color: $color-black;
+  color: $color-white;
+  font-size: 14px;
+  border: none;
+  height: 45px;
+  max-width: 22%;
+  width: 100%;
+  cursor: pointer;
+
+  @include lg{
+    max-width: 28%;
+  }
+
+  @include sm{
+    max-width: 33%;
+  }
+}
+
+.button__sectionBase:hover {
+  color: rgb(179, 177, 175);
+  transition: 0.3s;
+}
+.button__detail {
+  background-color: $color-white;
+  color: $color-grey;
+  border: 1px solid dark$color-grey;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.button__detail:hover {
+  color: rgb(179, 177, 175);
+  transition: 0.3s;
+}
+.button__detail_sign {
+  background-color: $color-white;
+  color: $color-grey;
+  border: 1px solid dark$color-grey;
+  cursor: pointer;
+}
+.button__detail_sign:hover {
+  color: rgb(179, 177, 175);
+  transition: 0.3s;
+  background-color: light$color-grey;
+}
+.button__detail_num {
+  background-color: $color-white;
+  color: $color-grey;
+  border: 1px solid dark$color-grey;
+}
+.button__detail_num:hover {
+  color: rgb(179, 177, 175);
+  transition: 0.3s;
+}
+.button__detail__2 {
+  color: $color-white;
+  background-color: $color-grey;
+  border: none;
+  margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button__detail__2:hover {
+  color: rgb(179, 177, 175);
+  transition: 0.3s;
+}

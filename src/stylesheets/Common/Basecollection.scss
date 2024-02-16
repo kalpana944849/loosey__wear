@@ -1,0 +1,80 @@
+@import "../main.scss";
+
+.baseCollection{
+
+    padding: 48px 55px 52px;
+
+    @include lg{
+        padding:20px 10px;
+      }
+
+    @include sm{
+        padding:10px;
+    }
+    &__section1{
+        flex: 0 0 50%;
+        max-width: 50%;
+        width:100%;
+        cursor: pointer;
+
+        &__text{
+            text-align: center;
+
+            @include sm{
+                padding: 24px;
+            }
+        }
+
+        img{
+            @include sm{
+                height:250px;
+                width: 350px;
+                margin: 0 auto;
+            }
+        }
+
+        @include sm{
+            flex:0 0 100%;
+            max-width: 100%;
+            width: 100%;
+
+        }
+    }
+    &__section2{
+        flex: 0 0 50%;
+        max-width: 50%;
+        width:100%;
+        cursor: pointer;
+
+        @include sm{
+            flex: 0 0 100%;
+            max-width: 100%;
+            width:100%;
+        }
+    }
+    h2{
+        margin:0px;
+        font-size: 37px;
+        line-height: 1em;
+        color:$color-black;
+        margin-bottom: 20px;
+
+        @include sm{
+            font-size: 25px;
+        }
+    }
+    .img__Center{
+        margin: 0px;
+    }
+    h6{
+        font-size: 13px;
+        color:$color-grey;
+        margin-bottom: 0px;
+        font-family: Poppins,sans-serif;
+
+        @include sm{
+            font-size: 14px;
+            margin-top: 0px;
+        }
+    }
+}

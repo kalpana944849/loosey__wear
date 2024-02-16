@@ -1,0 +1,86 @@
+@import "../main.scss";
+
+.card {
+  cursor: pointer;
+
+  // img {
+  //   height: 329px;
+  //   width: 270px;
+
+  //   @include lg{
+  //     width:229.33px;
+  //     height:279.41px;
+  //   }
+
+  //   @include sm {
+  //     width: 165px;
+  //     height: 201.09px;
+  //   }
+  // }
+//  img {
+//     width: 300px;
+//     height: 366px;
+
+//     @include lg{
+//       width:246.67px;
+//       height: 300.52px;
+//     }
+
+//     @include sm {
+//       width: 165px;
+//       height: 202px;
+//     }
+//   }
+  .Details {
+    margin-left: 10px;
+    @include sm{
+      padding: 0px 15px;
+      margin-left: 0px;
+    }
+  }
+  .gender {
+    font-size: 11.05px;
+    color: $color-grey;
+    margin-bottom: 5.525px;
+    margin-top: 6px;
+
+    @include lg{
+      font-size: 10.0776px;
+    }
+    @include sm{
+      margin-bottom: 0;
+    }
+  }
+  .orderName {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    color: $color-black;
+
+    @include lg{
+      font-size: 16.416px;
+    }
+
+    @include sm{
+      font-size: 15.4px;
+    }
+  }
+  .price {
+    margin: 0;
+    font-size: 11.05px;
+    color: $color-grey;
+    font-weight: bold;
+
+    @include lg{
+      font-size: 10.6704px;
+    }
+
+    @include sm{
+      font-size: 10.05px; 
+      font-weight: bold;
+    }
+  }
+  .card:hover img {
+    opacity: 0.3;
+  }
+}

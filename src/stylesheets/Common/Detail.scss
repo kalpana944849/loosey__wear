@@ -1,0 +1,203 @@
+@import "../main.scss";
+
+.detail {
+  padding: 30px 55px;
+  display: flex;
+
+  @include sm {
+    padding: 24px 30px 21px;
+  }
+  &__section__1 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 100%;
+
+    @include lg {
+      flex: 0 0 100%;
+      max-width: 100%;
+      width: 100%;
+      padding: 0;
+    }
+    @include sm {
+      flex: 0 0 100%;
+      max-width: 100%;
+      width: 100%;
+      padding: 0;
+    }
+
+    &__a {
+      flex: 0 0 50%;
+      max-width: 50%;
+      width: 100%;
+
+      // @include lg{
+      //   display: none;
+      // }
+
+      @include sm {
+        flex: 0 0 50%;
+        max-width: 50%;
+        width: 100%;
+      }
+
+      .last-image {
+        margin-top: 20px;
+      }
+    }
+    &__b {
+      flex: 0 0 50%;
+      max-width: 50%;
+      width: 100%;
+    }
+
+    // @include lg{
+    //   display: none;
+    // }
+    @include sm {
+      flex: 0 0 100%;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  &__section__2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 100%;
+    padding-left: 50px !important;
+
+    @include lg {
+      flex: 0 0 100%;
+      max-width: 100%;
+      width: 100%;
+      padding-left: 0 !important;
+    }
+
+    @include sm {
+      flex: 0 0 100%;
+      width: 100%;
+      max-width: 100%;
+      padding-left: 0 !important;
+    }
+
+    h1 {
+      color: black;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      font-size: 36px;
+
+      @include sm {
+        font-size: 30px;
+        margin-bottom: 0px;
+      }
+    }
+    span {
+      font-size: 19.5px;
+      font-weight: bold;
+      color: black;
+
+      @include sm {
+        font-size: 17.84px;
+      }
+    }
+    p {
+      color: $color-grey;
+      font-size: 13px;
+
+      @include sm {
+        margin: 0;
+        font-size: 11.856px;
+      }
+
+      span {
+        @include lg {
+          font-size: 10.6704px;
+        }
+        @include sm {
+          font-size: 10.6704px;
+          font-weight: 400;
+          color: $color-grey;
+        }
+      }
+    }
+    h3 {
+      color: $color-black;
+      display: flex;
+      justify-content: space-between;
+
+      @include lg {
+        font-size: 13.0416px;
+      }
+
+      @include sm {
+        font-size: 13.0416px;
+        margin: 0;
+      }
+    }
+  }
+  h2 {
+    font-size: 20px;
+    color: black;
+
+    @include lg {
+      font-size: 32px;
+      color: black;
+    }
+  }
+  img {
+    @include lg {
+      width: 212.42px;
+      height: 258.8px;
+    }
+  }
+  h6 {
+    color: $color-black;
+    font-size: 13px;
+    font-weight: 510;
+  }
+  ul {
+    color: $color-grey;
+    font-size: 13px;
+    padding: 0px;
+    margin-left: 15px;
+  }
+  .main__image {
+    width: 600px;
+    height: 731px;
+    margin-bottom: 18px;
+
+    @include sm {
+      width: 300px;
+      height: 431px;
+    }
+  }
+  .overlay__icons {
+    transition: 0.5s;
+    opacity: 0;
+    position: absolute;
+    top: 12%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+    .eye__icon {
+      margin-top: 10px;
+    }
+  }
+  i {
+    color: $color-black;
+    background-color: $color-white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shirt {
+    @include lg {
+      display: none;
+    }
+  }
+}

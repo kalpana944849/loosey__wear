@@ -1,0 +1,24 @@
+@import "../main.scss";
+
+.login{
+    background-color: $color-primary;
+    width: 38%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 64px;
+    border-radius: 30px;
+
+    @include sm{
+        width: 90%;
+        border-radius: 0;
+    }
+
+
+    .input__field{
+        margin-bottom: 30px;
+    }
+
+    h5{
+        cursor: pointer;
+    }
+}
